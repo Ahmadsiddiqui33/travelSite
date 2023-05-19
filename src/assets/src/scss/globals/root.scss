@@ -1,0 +1,68 @@
+:root {
+    --radius-xs: 2px;
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+    --radius-circle: 50%;
+  
+    --text-h1 : 70px;
+    --text-h2 : 50px;
+    --text-h3 : 30px;
+    --text-h4 : 25px;
+    --text-h5 : 18px;
+    --text-h6 : 16px;
+
+    --spacing-0: 0px;
+    --spacing-1: 4px;
+    --spacing-2: 8px;
+    --spacing-3: 12px;
+    --spacing-4: 16px;
+    --spacing-5: 20px;
+    --spacing-6: 24px;
+    --spacing-7: 28px;
+    --spacing-8: 32px;
+    --spacing-9: 36px;
+    --spacing-10: 40px;
+    --spacing-12: 48px;
+
+    --weight-100 : 100;
+    --weight-200 : 200;
+    --weight-300 : 300;
+    --weight-400 : 400;
+    --weight-500 : 500;
+    --weight-600 : 600;
+    --weight-700 : 700;
+  
+    --white : #fff;
+    --black : #000;
+    --gray-100 : #e6e6e6;
+    --gray-500 : #757575;
+    --red-300 : #f1e8fc;
+    --red-500 : #eb1c2d;
+    --red-700 : #921520;
+  }
+
+
+  $primary : #8c3eeb;
+  $white : var(--white);
+  $black : var(--black);
+  $red-300 : var(--red-300);
+  $red-700 : var(--red-700);
+
+
+  h1{
+    font-size: var(--text-h1);
+  }
+  h2{
+    font-size: var(--text-h2);
+  }
+  h3{
+    font-size: var(--text-h3);
+  }
+
+  button{
+    cursor: pointer;
+  }
+
+ 

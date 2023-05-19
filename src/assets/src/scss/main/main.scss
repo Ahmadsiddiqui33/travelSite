@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .banner-content{
+        padding: 300px 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 100%;
+    }
+    .banner-heading{
+        margin: 0 ;
+        color: $white;
+        font-weight: var(--weight-300);
+    }
+    .banner-subheading{
+        margin: 0;
+        color: $white;
+        font-weight: var(--weight-300);
+    }
+}
+

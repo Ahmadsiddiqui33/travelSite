@@ -1,0 +1,49 @@
+.main-nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    .brand-logo{
+        height: 100px;
+        width: auto;
+    }
+    .navbar-nav{
+        position: relative;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        & > li{
+            & > a{
+                padding: 10px;
+                color: $black;
+                text-decoration: none;
+            }
+        }
+        .sub-nav{
+            position: absolute;
+            padding: 10px 5px;
+            display: none;
+            text-align: left;
+            width: 150px;
+            top: 50px;
+            list-style-type: none;
+            background-color: $primary;
+            border-radius: var(--radius-md);
+            transition: 0.3s;
+            & > li{
+                padding: 10px;
+                & > a{
+                    text-decoration: none;
+                    color: $white;
+                }
+            }
+        }
+        &:hover{
+            .sub-nav{
+                display: block;
+            }
+        }
+    }
+    .navbar-btn{
+        margin-left: auto;
+    }
+}
